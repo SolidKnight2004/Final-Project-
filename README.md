@@ -65,14 +65,17 @@ Next get four jumper wires
 Step 4
 Use the code I used in the project and go login to your Raspberry Pi. click on the Raspberry logo at the top left of the screen, then click on Programming and go down to click on Thonny. Next copy the code and paste it to Thonny, then click Run at the top to run the code.
 
-#!/bin/python 
+#!/bin/python
 
-from gpiozero import DistanceSensor 
-from time import sleep 
-sensor = DistanceSensor(echo=23, trigger=24, max_distance=2.0) 
-while True: distance = sensor.distance * 100 
-print("Distance: %.2f",distance) 
-sleep(0.5)
+from gpiozero import DistanceSensor
+from time import sleep
+
+sensor = DistanceSensor(echo=23, trigger=24, max_distance=2.0)
+
+while True:
+        distance = sensor.distance * 100
+        print("Distance: %.2f", % distance)
+        sleep(0.5)
 
 
 Conclusion 
