@@ -28,10 +28,12 @@ Get two jumper wires and connect them on the Raspberry Pi at the bottom left. Th
 
 
 Step 3
+
 Then connect the button to the breadboard 
 
 
 Step 4 
+
 Use the code I used in the project and go login to your Raspberry Pi. click on the Raspberry logo at the top left of the screen, then click on Programming and go down to click on Thonny. Next copy the code and paste it to Thonny, then click Run at the top to run the code.
 
 
