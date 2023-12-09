@@ -83,10 +83,13 @@ Then get two resistors to prevent voltage from overheating the sensor. Place the
 
 **Step 3**
 
-Next get four jumper wires 
-
+Next get four jumper wires and connect them to you Raspberry Pi. the first wire (orange wire 1) connect it to Ground on number 6, the second wire (sliver wire) to the 5V power on number 2, the thrid wire (orange wire 2) to the GPIO 23 on number 10, and the final wire (green wire) to the GPIO 24 on number 18. 
 
 **Step 4**
+
+then connect the other end of the jumper wires to the breadboard. first connect orange wire 1 to number 6 four spaces down, then connect the sliver wire to number 9 five spaces down, second connect orange wire 2 to number 12 four spaces down, and last to the green wire to number 8 five spaces down.
+
+**Step 5**
 
 Use the code I used in the project and go login to your Raspberry Pi. click on the Raspberry logo at the top left of the screen, then click on Programming and go down to click on Thonny. Next copy the code and paste it to Thonny, then click Run at the top to run the code.
 
