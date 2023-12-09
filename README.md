@@ -74,8 +74,11 @@ from time import sleep
 sensor = DistanceSensor(echo=23, trigger=24, max_distance=2.0)
 
 while True:
+        
         distance = sensor.distance * 100
+       
         print("Distance: %.2f", % distance)
+        
         sleep(0.5)
 
 
