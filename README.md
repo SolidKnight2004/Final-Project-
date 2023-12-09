@@ -78,7 +78,7 @@ while True:
        
         distance = sensor.distance * 100
        
-        print("Distance: %.2f", % distance)
+        print("Distance: %.2f", distance)
         
         sleep(0.5)
 
