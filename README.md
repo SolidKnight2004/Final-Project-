@@ -68,6 +68,7 @@ Use the code I used in the project and go login to your Raspberry Pi. click on t
 #!/bin/python
 
 from gpiozero import DistanceSensor
+
 from time import sleep
 
 sensor = DistanceSensor(echo=23, trigger=24, max_distance=2.0)
